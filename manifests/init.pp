@@ -36,7 +36,7 @@
 # Copyright 2011 Your name here, unless otherwise noted.
 #
 class trustanchors (
-  ensure
+  $ensure
   ) {
   yumrepo{ 'EGI-trustanchors':
     descr    => 'EGI-trustanchors',
