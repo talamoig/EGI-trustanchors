@@ -1,0 +1,32 @@
+{
+  "name": "talamoig-EGI-trustanchors",
+  "version": "0.0.1",
+  "author": "talamoig",
+  "summary": "EGI trustanchors",
+  "license": "Apache-2.0",
+  "source": "https://github.com/talamoig/EGI-trustanchors",
+  "issues_url": "https://github.com/talamoig/EGI-trustanchors/issues",
+  "project_page": "https://github.com/talamoig/EGI-trustanchors",
+  "description": "Puppet module for managing EGI trustanchors package",
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "operatingsystem_support": [
+       {
+	"operatingsystem":"RedHat",
+	"operatingsystemrelease":[ "6" ]
+       },
+       {
+      "operatingsystem": "ScientificLinux",
+      "operatingsystemrelease": [ "6" ]
+      },
+       {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [ "6" ]
+      }
+      ],
+  "dependencies": []
+}
