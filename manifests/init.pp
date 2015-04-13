@@ -35,7 +35,7 @@
 #
 # Copyright 2011 Your name here, unless otherwise noted.
 #
-class EGI-trustanchors(
+class trustanchors (
   ensure
   ) {
   yumrepo{ 'EGI-trustanchors':
